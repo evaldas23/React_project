@@ -95,3 +95,13 @@ main {
     }
   }
 }
+
+.Footer {
+  display: flex;
+  justify-content: center;
+  background: #d8b0b0;
+
+  svg {
+    padding: 10px;
+  }
+}
