@@ -25,7 +25,7 @@ function App() {
             text. Did you know this text had been used in the printing industry
             since the 1500s basically in Latin? Well, now we came up with the
             idea to make Lorem Ipsum funnier, in a form of a bit silly but
-            well-known Minisons' language. Hope you appreciate our humor So how
+            well-known Minisons language. Hope you appreciate our humor So how
             exactly to use the generator? While designing a new site, or web
             page copy the following 1, 2, 3, and 4 paragraphs with plain lorem
             ipsum text to fill in the template (or your default model) for your
@@ -137,8 +137,15 @@ function App() {
         </main>
       </div>
       <footer className="Footer">
+      <a 
+        href="https://github.com/evaldas23" 
+        target="_blank" 
+        rel="noopener noreferrer" >
         <FaGithubAlt />
-        <FaLinkedinIn />
+        </a>
+        <a href="/#" target="_blank" rel="noopener noreferrer">
+          <FaLinkedinIn />
+        </a>
       </footer>
     </React.Fragment>
   );
