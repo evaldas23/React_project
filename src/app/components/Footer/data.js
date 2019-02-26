@@ -1,3 +1,4 @@
+
 import { FaGithubAlt, FaLinkedinIn } from 'react-icons/fa';
 
 const data = [
