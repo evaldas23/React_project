@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 function IconLink(props) {
   const { href, target, icon: Icon } = props;
 
+  throw Error('Icon link Faited');
+
   return (
     <a href={href} target={target} rel="noopener noreferrer">
       <Icon />
